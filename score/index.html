@@ -1,0 +1,44 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>成绩录入系统</title>  
+    <meta charset="utf-8">  
+    <style>  
+        table{  
+            margin-bottom:20px;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <h1>成绩录入系统</h1>  
+    <form action="score_add.php">  
+        <table width=200px;>  
+            <tr>  
+                <td>请输入学号:<input type="text" name="sid"></td>  
+            </tr>  
+            <tr>  
+                <td>请输入姓名:<input type="text" name="stuName"></td>  
+            </tr>  
+            <tr>  
+                <td>请输入语文成绩:<input type="text" name="chinese"></td>  
+            </tr>  
+            <tr>  
+                <td>请输入数学成绩:<input type="text" name="math"></td>  
+            </tr>  
+            <tr>  
+                <td><input type="submit" value="保存成绩"><td>  
+            </tr>   
+        </table>  
+        </form>     
+        <form action="score_delete.php">  
+            <table width=200px;>  
+                <tr>  
+                    <td>请输入要删除的成绩编号:<input type="text" name="sid"></td>  
+                </tr>  
+                <tr>  
+                    <td><input type="submit" value="删除成绩"></td>  
+                </tr>  
+            </table>  
+    </form>  
+</body>  
+</html> 
